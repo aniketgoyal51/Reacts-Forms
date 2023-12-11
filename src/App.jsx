@@ -68,7 +68,7 @@ function App() {
       }
 
       if(valid){
-        seterror(error=>({...error,submit:"Submitted"}))
+        seterror(error=>({...error,submit:"Registeration succesful."}))
       }
     }
   return (  
@@ -92,7 +92,7 @@ function App() {
           <p>{error.contact}</p>
         </div>
         <div>
-          <button type='submit'>Submit</button>
+          <button type='submit'>Register</button>
         </div>
       </form>
     </div>
